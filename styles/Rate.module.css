@@ -1,0 +1,73 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header_h3 {
+    color: white;
+    text-align: center;
+    Font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.header_content {
+    margin-bottom: 6rem;
+}
+
+.border_bottom {
+    max-width: 100px;
+    margin: 0 auto;
+    height: 7px;
+    background-color: #F79319;
+    border: 0;
+}
+
+.d_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 6rem;
+}
+
+.rate_card {
+    padding: 30px 40px;
+    background: #1C2238;
+    border-radius: 15px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.rate_card span {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #9e9d9d;
+    margin-top: 7px;
+}
+
+.image_container {
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+.rate_card p {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    padding: 0;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .d_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
