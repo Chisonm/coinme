@@ -1,0 +1,44 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lock_content {
+    padding: 40px 60px;
+    background: #F79319;
+    border-radius: 45px;
+    margin-bottom: 6rem;
+}
+
+.lock_content p {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+
+.image_container {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.flex_items{
+    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+    .lock_content p {
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
